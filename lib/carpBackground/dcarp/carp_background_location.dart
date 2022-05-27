@@ -10,6 +10,7 @@ import 'package:background_locator/location_dto.dart';
 import 'package:background_locator/settings/android_settings.dart';
 import 'package:background_locator/settings/ios_settings.dart';
 import 'package:background_locator/settings/locator_settings.dart';
+import 'package:flutter/foundation.dart';
 import '../../database/funcs.dart';
 
 export 'package:background_locator/location_dto.dart';

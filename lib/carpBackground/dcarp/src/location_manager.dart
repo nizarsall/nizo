@@ -83,11 +83,14 @@ class LocationManager {
             accuracy: _accuracy,
             interval: _interval,
             distanceFilter: _distanceFilter,
+            client: LocationClient.android,
             androidNotificationSettings: AndroidNotificationSettings(
               notificationChannelName: _channelName,
               notificationTitle: _notificationTitle,
               notificationMsg: _notificationMsg,
               notificationBigMsg: _notificationBigMsg,
+              
+              
             )),
         iosSettings: IOSSettings(
           accuracy: _accuracy,

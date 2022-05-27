@@ -15,8 +15,8 @@ Stream<LocationDto> locationStream;
 StreamSubscription<LocationDto> locationSubscription;
 
 void CarpLocationSettings() {
-  LocationManager().interval = 1;
-  LocationManager().distanceFilter = 0;
+  LocationManager().interval = 5;
+  LocationManager().distanceFilter = 10;
   LocationManager().notificationTitle = 'CARP Location Example';
   LocationManager().notificationMsg = 'CARP is tracking your location';
   locationStream = LocationManager().locationStream;
