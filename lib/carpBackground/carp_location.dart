@@ -17,8 +17,10 @@ StreamSubscription<LocationDto> locationSubscription;
 void CarpLocationSettings() {
   LocationManager().interval = 5;
   LocationManager().distanceFilter = 10;
-  LocationManager().notificationTitle = 'CARP Location Example';
-  LocationManager().notificationMsg = 'CARP is tracking your location';
+  LocationManager().notificationTitle = 'دوّار';
+  LocationManager().notificationMsg = 'دوّار يبحث لك عن رحلات مشتركة';
+  LocationManager()..notificationBigMsg=' تطبيق دوّار يتعلم النقلات الخاصة بك ليجد لك اشخاصاً يشاركونك رحلاتك ';
+  locationStream = LocationManager().locationStream;
   locationStream = LocationManager().locationStream;
 }
 

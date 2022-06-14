@@ -27,7 +27,7 @@ void backgroundFetchHeadlessTask( HeadlessTask task) async {
   var timestamp = DateTime.now();
 
   var prefs = await SharedPreferences.getInstance();
-  if (taskId == "com.dawwar.yami") {
+  if (taskId == "com.example.untitled") {
     CL.start();
   }
   var events = <String>[];
@@ -43,7 +43,7 @@ void backgroundFetchHeadlessTask( HeadlessTask task) async {
     CL.start();
     print('bobobobobo');
     BackgroundFetch.scheduleTask(TaskConfig(
-        taskId: "com.dawwar.yami",
+        taskId: "com.example.untitled",
         delay: 69420,
         periodic: false,
         forceAlarmManager: false,

@@ -10,11 +10,11 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
    <application
-       android:label="Yami"
+       android:label="دوّار"
        android:icon="@mipmap/ic_launcher">
 
-        <meta-data android:name="com.google.android.geo.API_KEY"
-        android:value="AIzaSyBEwgj7AO_nxyDQtJRNJmssmvD8c8jXWnA"/>    
+       <meta-data android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCSRKmk9yxyouyXUpnz6Ccsfq0oUieqMGU"/>  
 
         <activity
             android:name=".MainActivity"
@@ -36,10 +36,7 @@
                  screen fades out. A splash screen is useful to avoid any visual
                  gap between the end of Android's launch screen and the painting of
                  Flutter's first frame. -->
-            <meta-data
-              android:name="io.flutter.embedding.android.SplashScreenDrawable"
-              android:resource="@drawable/launch_background"
-              />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

@@ -20,7 +20,7 @@ class LocationManager {
 
   int _interval = 5;
   double _distanceFilter = 0;
-  LocationAccuracy _accuracy = LocationAccuracy.NAVIGATION;
+  LocationAccuracy _accuracy = LocationAccuracy.HIGH;
 
   static final LocationManager _instance = LocationManager._();
 
