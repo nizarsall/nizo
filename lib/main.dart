@@ -5,7 +5,7 @@ import './screens/map_view.dart';
 import './carpBackground/carp_location.dart' as CL;
 import 'backgroundTasks/background_fetch.dart';
 import './config/pemissions.dart';
-
+import './screens/phone_auth.dart';
 void main() {
   
   runApp(const MyApp());
@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     
     return MaterialApp(
-      home: MapView(),
+      home: phone_auth(),
     );
   }
 }

@@ -4,6 +4,7 @@ import '../palette.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_text_field/pin_code_text_field.dart';
 import './registerView.dart';
+import './CreatProfile.dart';
 
 class phone_auth extends StatefulWidget {
   const phone_auth() : super();
@@ -134,7 +135,7 @@ class _phone_authState extends State<phone_auth> {
                                   style: Wparagraph,
                                 ),
                                 color: primary,
-                                onPressed:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>  registerViewFrom()));},
+                                onPressed:(){ Navigator.push(context, MaterialPageRoute(builder: (context)=>  CreatProfile()));},
                               )
                             ]),
                           ))))
