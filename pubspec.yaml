@@ -49,6 +49,7 @@ dependencies:
   pin_code_text_field:
   flutter_form_builder: 7.0.0
   image_picker: ^0.8.5+3
+  carousel_slider: ^4.1.1
   flutter_localizations: 
     sdk: flutter
     version: ^0.0.0

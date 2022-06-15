@@ -3,7 +3,6 @@ import 'package:flip_card/flip_card.dart';
 import '../palette.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_text_field/pin_code_text_field.dart';
-import './registerView.dart';
 import './CreatProfile.dart';
 
 class phone_auth extends StatefulWidget {

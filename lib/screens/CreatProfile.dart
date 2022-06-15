@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import '../palette.dart';
+import './suggestion_list.dart';
 
 class CreatProfile extends StatefulWidget {
   CreatProfile() : super();
@@ -107,6 +108,7 @@ class _CreatProfileState extends State<CreatProfile> {
               onTap: () async {
                 setState(() {
                   circular = true;
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>  suggestionList()));
                   
                 });
                 if (_globalkey.currentState.validate()) {
